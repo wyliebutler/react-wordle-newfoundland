@@ -1,4 +1,4 @@
-# React Wordle
+# React Wordle for Newfouldland Dictionary
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/modem7/wordle)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/modem7/wordle/latest)
