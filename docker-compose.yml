@@ -1,0 +1,9 @@
+version: "2.4"
+
+services:
+
+  wordle:
+    image: wyliebutler/react-wordle-newfoundland:latest
+    container_name: Wordle
+    ports:
+      - 80:8080
