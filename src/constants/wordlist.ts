@@ -586,5 +586,4 @@ export const WORDS = [
   'yawny',
   'young',
   'youse',
-]  
 ]
