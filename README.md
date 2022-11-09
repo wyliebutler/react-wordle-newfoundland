@@ -47,7 +47,7 @@ services:
     image: modem7/wordle:latest
     container_name: Wordle
     ports:
-      - 80:8080
+      - 7380:8080
 ```
 
 ## Legacy
@@ -61,7 +61,7 @@ services:
     image: modem7/wordle:legacy
     container_name: Wordle
     ports:
-      - 80:80
+      - 7380:80
 ```
 
 # Tags
