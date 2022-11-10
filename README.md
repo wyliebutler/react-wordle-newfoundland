@@ -44,7 +44,7 @@ version: "2.4"
 services:
 
   wordle:
-    image: modem7/wordle:latest
+    image: wyliebutler/nl-wordle
     container_name: Wordle
     ports:
       - 7380:8080
@@ -58,7 +58,7 @@ version: "2.4"
 services:
 
   wordle:
-    image: modem7/wordle:legacy
+    image: wyliebutler/nl-wordle
     container_name: Wordle
     ports:
       - 7380:80
