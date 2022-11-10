@@ -8,10 +8,11 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="How to play NL Wordle" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        change to show how close your guess was to the word. ALL WORDS ARE FOUND 
+        IN THE NEWFOUNDLAND DICTIONARY.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -61,7 +62,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/wyliebutler/react-wordle-newfoundland"
           className="font-bold underline"
         >
           check out the code here
