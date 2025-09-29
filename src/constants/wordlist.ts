@@ -191,7 +191,6 @@ export const WORDS = [
   'gache',
   'gripe',
   'licky',
-  'fine1',
   'dolly',
   'bluey',
   'pipsi',
